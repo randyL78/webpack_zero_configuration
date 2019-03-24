@@ -1,3 +1,7 @@
-import { numbers } from './numbers';
+import React from 'react';
+import { render } from 'react-dom';
 
-numbers.forEach(number => console.log(number));
+
+import App from './components/App';
+
+render(<App />, document.getElementById('root'));
